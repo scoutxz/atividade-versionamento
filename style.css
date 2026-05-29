@@ -1,35 +1,42 @@
-body{
-    font-family: Arial;
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    background: black;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-nav{
-    background: gray;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a{
-    color: white;
-    margin: 10px;
-    text-decoration: none;
-}
-
-section{
-    padding: 20px;
-}
-
-footer{
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
+/* Fundo */
+body {
+    background-color: #0f172a; /* azul escuro moderno */
+    color: #e2e8f0; /* texto claro suave */
+  }
+  
+  /* Títulos */
+  h1, h2, h3 {
+    color: #38bdf8; /* azul bonito destaque */
+  }
+  
+  /* Parágrafos */
+  p {
+    color: #cbd5f5;
+  }
+  
+  /* Botões */
+  button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0ea5e9;
+  }
+  
+  /* Inputs */
+  input {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+  }
+  
+  /* Links (se tiver) */
+  a {
+    color: #38bdf8;
+  }
+  
+  a:hover {
+    color: #0ea5e9;
+  }
