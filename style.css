@@ -40,3 +40,6 @@ body {
   a:hover {
     color: #0ea5e9;
   }
+  html {
+    scroll-behavior: smooth;
+  }
